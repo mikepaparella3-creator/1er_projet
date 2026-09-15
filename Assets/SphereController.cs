@@ -26,12 +26,12 @@ public class SphereController : MonoBehaviour
     {
         t += Time.deltaTime * _Speed;
         color_t += Time.deltaTime / _Duration;
-        t = Mathf.PingPong(t, 1);
-        color_t = Mathf.PingPong(color_t, 1);
+        float moveT = Mathf.PingPong(t, 1);
+        float colorT = Mathf.PingPong(color_t, 1);
 
-        transform.position = Vector3.Lerp(startPos, targetPos, t);
-        transform.localScale = Vector3.Lerp(startScale, targetScale, t);
-        _Material.color = Color.Lerp(_Color1, _Color2, color_t);
+        transform.position = Vector3.Lerp(startPos, targetPos, moveT);
+        transform.localScale = Vector3.Lerp(startScale, targetScale, moveT);
+        _Material.color = Color.Lerp(_Color1, _Color2, colorT);
 
     }
 
