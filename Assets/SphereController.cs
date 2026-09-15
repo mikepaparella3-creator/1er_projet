@@ -11,7 +11,7 @@ public class SphereController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float speed = 10;
+        float speed = 20;
         Vector3 translation = Vector3.right * speed;
         Vector3 newPos = transform.position + translation;
         transform.position = newPos;
