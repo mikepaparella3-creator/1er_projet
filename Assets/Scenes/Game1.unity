@@ -410,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099740793}
   m_Layer: 0
-  m_Name: Player_fake
+  m_Name: Player_not_fake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
