@@ -340,6 +340,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c685e60c4f834b944a8b7cab21f1579e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  _Direction: {x: 1, y: 0, z: 0}
+  _Speed: 2
+  _Distance: 10
+  _Duration: 0
+  _Scale: 4
+  _Color1: {r: 0, g: 0, b: 0, a: 1}
+  _Color2: {r: 1, g: 0, b: 0, a: 1}
+  _Renderer: {fileID: 1793470667}
 --- !u!135 &1793470666
 SphereCollider:
   m_ObjectHideFlags: 0
